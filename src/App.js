@@ -24,10 +24,10 @@ function Result({ correct }) {
     <div className="result">
       <img src="https://cdn-icons-png.flaticon.com/512/2278/2278992.png" />
       <h2>
-        Вы отгадали {correct} ответа из {questions.length}
+        총 {questions.length}문제 중에서 {correct}문제를 정답했습니다.
       </h2>
       <a href="/">
-        <button>Попробовать снова</button>
+        <button>다시 시도하기</button>
       </a>
     </div>
   );
